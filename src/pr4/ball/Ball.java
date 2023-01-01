@@ -35,6 +35,6 @@ public class Ball {
     }
 
     public String toString(){
-        return "pr4.ball position: (" + x + "; " + y + ")";
+        return "ball position: (" + x + "; " + y + ")";
     }
 }
