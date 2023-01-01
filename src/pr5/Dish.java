@@ -1,5 +1,4 @@
 package pr5;
-import java.awt.*;
 
 public abstract class Dish {
     private int depth;
