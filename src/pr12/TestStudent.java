@@ -1,7 +1,5 @@
 package pr12;
 
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class TestStudent {
