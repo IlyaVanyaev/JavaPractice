@@ -5,24 +5,24 @@ import java.awt.*;
 
 public class Text {
     public static void main(String[] args) {
-        //Окно
+
         JFrame frame = new JFrame("Text");
 
-        //Поле для текста
+
         JTextArea textArea = new JTextArea();
         textArea.setBounds(0, 100, 400, 200);
 
-        //Выпадающий список с цветом
+
         String[] colours = {"Чёрный", "Красный", "Зелёный", "Синий"};
         JComboBox colour = new JComboBox(colours);
         colour.setBounds(0, 0, 150, 20);
 
-        //Выпадающий список с шрифтом
+
         String[] styles = {"Serif", "Arial", "Georgia", "Verdana"};
         JComboBox style = new JComboBox(styles);
         style.setBounds(0, 30, 150, 20);
 
-        //кнопка
+
         JButton okButton = new JButton("Применить");
         okButton.setBounds(200, 20, 101, 20);
         okButton.addActionListener(e -> click(colour, style, textArea));
