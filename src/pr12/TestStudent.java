@@ -49,8 +49,7 @@ public class TestStudent {
 
         merge(a, l, r, mid, n - mid);
     }
-    public static void merge(
-            Student[] a, Student[] l, Student[] r, int left, int right) {
+    public static void merge(Student[] a, Student[] l, Student[] r, int left, int right) {
 
         int i = 0, j = 0, k = 0;
         while (i < left && j < right) {
