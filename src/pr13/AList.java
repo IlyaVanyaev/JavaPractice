@@ -1,7 +1,6 @@
 package pr13;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class AList {
 
