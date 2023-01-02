@@ -13,14 +13,10 @@ public class Recursion {
 
     public static String rec3 (int A, int B){
         if (A > B) {
-            if (A == B) {
-                return Integer.toString(A);
-            }
+            if (A == B) return Integer.toString(A);
             return A + " " + rec3(A - 1, B);
         } else {
-            if (A == B) {
-                return Integer.toString(A);
-            }
+            if (A == B) return Integer.toString(A);
             return A + " " + rec3(A + 1, B);
         }
     }
