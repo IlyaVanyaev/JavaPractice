@@ -1,6 +1,5 @@
 package pr12;
 
-import java.util.ArrayList;
 import java.util.Comparator;
 
 public class SortingStudentsByGPA implements Comparator {
