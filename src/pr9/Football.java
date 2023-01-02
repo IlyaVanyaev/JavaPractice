@@ -7,34 +7,32 @@ public class Football {
         Team first = new Team("Milan");
         Team second = new Team("Madrid");
 
-        //Окно
         JFrame frame = new JFrame("Match");
 
 
-        //Счёт
         JLabel result = new JLabel("Result: " + first.getScore() + " : " + second.getScore());
         result.setBounds(5, 60, 100, 100);
 
-        //Последняя забившая команда
+
         JLabel last = new JLabel("Last Scorer: N/A");
         last.setBounds(5, 80, 150, 100);
 
-        //Победитель
+
         JLabel winner = new JLabel("Winner: DRAW");
         winner.setBounds(5, 100, 150, 100);
 
-        //Кнопка первой команды
+
         JButton firstTeam = new JButton(first.getName());
         firstTeam.setBounds(5, 15, 85, 20);
         firstTeam.addActionListener(e -> click(1, first, second, result, last, winner));
 
-        //Кнопка второй команды
+
         JButton secondTeam = new JButton(second.getName());
         secondTeam.setBounds(100, 15, 85, 20);
         secondTeam.addActionListener(e -> click(2, first, second, result, last, winner));
 
 
-        //Добавление элеметов в окно
+
         frame.add(result);
         frame.add(firstTeam);
         frame.add(secondTeam);
