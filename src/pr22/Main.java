@@ -8,7 +8,7 @@ public class Main {
 
     static {
         factories.put("Victorian", new VictorianFactory());
-        factories.put("Multifunctional", new MultiFactionalFactory());
+        factories.put("Multifunctional", new MultiFunctionalFactory());
         factories.put("Magic", new MagicFactory());
     }
 

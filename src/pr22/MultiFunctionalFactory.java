@@ -1,6 +1,6 @@
 package pr22;
 
-public class MultiFactionalFactory extends Factory{
+public class MultiFunctionalFactory extends Factory{
 
     @Override
     Chair createChair() {
