@@ -1,6 +1,5 @@
 package pr26;
 
-import java.security.cert.TrustAnchor;
 import java.util.Scanner;
 
 public class Shop {
