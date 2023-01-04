@@ -8,6 +8,6 @@ public class Main {
         car.drive(1000, 110);
 
         Car.Engine engine = new Car.Engine(800);
-        engine.rev();
+        engine.info();
     }
 }

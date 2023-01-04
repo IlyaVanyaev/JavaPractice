@@ -29,7 +29,7 @@ public class Car implements Drive{
             this.hp = horsepower;
         }
 
-        public void rev() {
+        public void info() {
             System.out.println("The power of the engine is " + hp + " horse power");
         }
     }
